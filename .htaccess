@@ -1,0 +1,13 @@
+RewriteEngine On
+ErrorDocument 404 ./view/noteshgh/
+Options -Indexes 
+Order allow,deny
+Allow from all
+
+<Files .htaccess>
+Order allow,deny
+Deny from all
+</Files>
+
+RewriteEngine On
+RewriteRule ^(view|app|model|controller) - [F,L]

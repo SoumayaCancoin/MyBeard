@@ -1,0 +1,90 @@
+
+/* ........................body style ................. */
+body{
+    width: 100%;
+    background: rgb(173,190,244);
+    background: linear-gradient(199deg,
+    rgba(173,190,244,1) 0%,
+    rgba(164,180,232,1) 80%,
+    rgba(135,149,194,1) 100%);
+}
+/* .............................Nav style .............. */
+div .btn{
+    background-color: #9195ED;
+    color: white;
+    
+ }
+ /* ............................Connexion page style .... */
+ .card_connexion{
+    border-radius: 15px
+ }
+  /* ............................user page style .... */
+  .container-nav-2{
+    background-color: #7287DB;
+
+}
+.post-it-pearple{
+    background-color: #9195ED;
+}
+.post-it-orange{
+    background-color: #E3977A;
+}
+.post-it-cyan{
+    background-color: #1B91AC;
+}
+.post-it-blue{
+    background-color: #4E53C4;
+}
+.post-it-yellow{
+    background-color: #D4E217;
+}
+.icone{
+    width: 30px;
+}
+
+.card{
+    display: block;
+}
+.card-aside{
+    width: 100px; 
+    height: 30rem ; 
+    background-color:#7C85A8 
+}
+.card-table{
+    width: 16rem;
+    height: 35rem;
+    overflow: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.card-table::-webkit-scrollbar {
+    display: none;
+  }
+.card-title{
+    margin-bottom:3px; 
+    margin-top:3px
+}
+
+.card-body-custom{
+    width: 100%;
+    height: 100px;
+    margin: 10px 0px;
+    padding: 1em;
+    box-shadow: 0px 3px 6px #000;
+}
+
+.link{
+    text-decoration: none;
+    color: #525974;
+}
+.horizontal-scroll > .card{
+    overflow-x: auto;
+    white-space: nowrap;
+    background-color: black;
+}
+
+/* .............................Footer.................. */
+footer{
+    background-color: #7C85A8;
+}
